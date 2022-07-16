@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.section {
+  background-color:#282c34;
+  color: white;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.section h2 {
+  letter-spacing: 3px;
+  color: yellow;
+}
+
+.section p {
+  letter-spacing: 2px;
+}
