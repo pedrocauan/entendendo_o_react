@@ -3,6 +3,7 @@ import logo from './logo.svg';
 //components
 import FirstComponent from "./components/FirstComponent"
 import TemplateExpressions from './components/TemplateExpressions';
+import Events from './components/Events'
 
 //styles | css
 import './App.css';
@@ -17,8 +18,9 @@ function App() {
       <h1>Fundamentos do React</h1>
       <FirstComponent></FirstComponent>
       <TemplateExpressions></TemplateExpressions>
-      {/*Um componente irmão ou filho de um componente já importado não precisa ser importado pelo pai */}
+      {/*Componente reaproveitado*/}
       <MyComponent></MyComponent>
+      <Events></Events>
     </div>
   );
 }
