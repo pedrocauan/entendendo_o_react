@@ -1,3 +1,4 @@
+import MyComponent from "./MyComponent"
 
 //Componente
 const FirstComponent = () => {
@@ -18,8 +19,8 @@ const FirstComponent = () => {
         <div>
             {/*Fiz um comentário no elemento html usando as chaves do react*/}
             <h1>Titulo</h1>
-
             <p className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, odio quae quasi officia quidem culpa natus voluptate id error tempora provident quis pariatur quia consectetur dolorem iste facilis inventore minus!</p>
+            <MyComponent></MyComponent>
         </div>
     )
 }
