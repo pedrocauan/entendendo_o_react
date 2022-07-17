@@ -7,15 +7,19 @@
 const Challenge = () => {
     const num1 = 4
     const num2 = 8
+    const somaLog = (e) => {
 
+        console.log(`${num1} + ${num2} = ${num1+num2}`)
 
+    }
+   
 
     return(
-        <div>
-            <h1>Desafio Challenge</h1>
+        <div className="bg-challenger main-content">
+            <h1 className="title">Desafio Challenge</h1>
             <h2>Número 1: {num1}</h2>
             <h2>Número 2: {num2}</h2>
-            <button onClick={(nums) => console.log(`${num1} + ${num2} = ${num1+num2}`) }>Clique aqui</button>
+            <button className="btn-content" onClick={somaLog}>Clique aqui</button>
         </div>
     )
 }

@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main-content {
+  padding: 20px;
+  padding-top: 10px;
+  margin: 0;
+}
+.bg-challenger {
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 92%);
+}
+
+.title {
+  color: gold;
+}
+
+.btn-content {
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn-content:hover {
+  cursor: pointer;
+  background-color: black;
+  color: gold;
+  font-weight:  900;
+}
+/* 
+.btn-color {
+  color
+} */
