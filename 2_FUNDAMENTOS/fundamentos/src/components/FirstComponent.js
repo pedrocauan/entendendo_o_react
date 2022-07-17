@@ -6,8 +6,11 @@ const FirstComponent = () => {
     //O JSX  é o html do REACT, nele serão exibidas as tags HTML renderizadas no navegador
     //alguns atributos do CSS podem gerar conflitos com o css e voce terá que trocar
     //Atributos:
-
     // class | className
+
+    //Template Expressions 
+        //Template expressions é o recurso do react que nos permite executar javascript  no JSX
+        // Uma Template Expression é representada pelos caracteres {}
 
     
     return (
