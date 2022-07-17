@@ -10,6 +10,13 @@ const Events = () => {
         console.log(`Rodou o evento. Componentes:`)
         console.log(e)
     }
+    //Função de renderização
+    const renderSomething = (r) => {
+        if(r)
+            return <h1>Renderiza isso aqui caso verdadeiro</h1>
+        else
+            return <h1>Renderiza caso falso</h1>
+    }
     return(
         <div>
             <div>
@@ -25,6 +32,10 @@ const Events = () => {
                         console.log("isso não deveria existir porque é gambiarra =D")
                 }}>Clica aqui pfv</button>
             </div>
+            {/*Renderiza a função fora do retorno do componente*/}
+            {renderSomething(true)}
+            {renderSomething(false)}
+
         </div>
     )
 }
